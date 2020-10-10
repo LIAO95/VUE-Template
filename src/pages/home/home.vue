@@ -1,12 +1,16 @@
 <template>
-	<div> <!-- 模版的只能暴露一个div,多个会报错，所以用一个div包裹起来 -->
-		helloworld
+	<div>
+	  <home-header></home-header>
 	</div>
 </template>
 
 <script>
+import HomeHeader from './components/header.vue'
 export default{
-	name:'Home'
+	name:'home',
+	components:{
+		HomeHeader:HomeHeader
+	}
 }
 </script>
 
