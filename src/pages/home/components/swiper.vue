@@ -19,15 +19,13 @@ export default{
       	},
       	banners:[{
       		id:'001',
-      		imgurl:require('./assets/a.png')
+      		imgurl:'./static/img/a.png'
       	},{
       		id:'002',
-      		imgurl:require('./assets/b.png')
-      	},{
+      		imgurl:'./static/img/b.png'
       	},{
       		id:'003',
-      		imgurl:require('./assets/c.png')
-      	},{
+      		imgurl:'./static/img/c.png'
       	}]
       }
 	}
